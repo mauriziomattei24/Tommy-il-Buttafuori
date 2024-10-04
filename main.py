@@ -43,3 +43,19 @@ def main():
     
 if __name__ == "__main__":
     main()
+
+
+
+
+class ScontroFinale:
+    def scontro_finale(self, punteggio):
+        print(f"Sei arrivato allo scontro finale contro Tommaso con {punteggio} punti!")
+        print("Preparati alla domanda finale...")
+
+        # Chiede se piace SQL
+        risposta_sql = input("Ti piace SQL? (si/no): ").strip().lower()
+
+        if risposta_sql == "si":
+            print("Hai sconfitto Tommaso! Hai vinto il gioco!")
+        else:
+            print("Tommaso ti ha buttato fuori dall'aula! Game over.")
