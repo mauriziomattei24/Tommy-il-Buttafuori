@@ -35,5 +35,11 @@ def main():
     else:
         print("Scelta non valida. Riavvia il programma e seleziona un'opzione valida.")
     
+    if punteggio > 50:
+        scontro_finale()
+    else:
+        print(f"Il tuo punteggio finale è: {punteggio}.")
+        print("Sei stato buttato fuori dall'aula da Tommaso")
+    
 if __name__ == "__main__":
     main()
