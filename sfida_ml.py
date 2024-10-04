@@ -13,7 +13,7 @@ class SfidaMachineLearning:
         opzioni = "A) Identificare modelli nei dati non etichettati. \nB) Prevedere un risultato basato su dati etichettati. \nC) Ridurre il numero di variabili in un dataset.",
         risposta_corretta = "A",
         punti_corretto = 15,
-        punti_errato = 10
+        punti_errato = -10
     )
 
         self.domande.aggiungi_domanda(
@@ -21,7 +21,7 @@ class SfidaMachineLearning:
         opzioni = "A) Mean Square Error (MSE) \nB) R-Squared \nC) Accuracy",
         risposta_corretta = "C",
         punti_corretto = 15,
-        punti_errato = 10
+        punti_errato = -10
     )
 
         self.domande.aggiungidomanda(
@@ -29,7 +29,7 @@ class SfidaMachineLearning:
         opzioni = "A) Regressione Lineare \nB) K-Means Clustering \nC) Decision Tree",
         risposta_corretta = "B",
         punti_corretto = 15,
-        punti_errato = 10
+        punti_errato = -10
     )
 
         self.domande.aggiungidomanda(
@@ -37,7 +37,7 @@ class SfidaMachineLearning:
         opzioni = "A) Un modello che generalizza bene sui dati non visti. \nB) Un modello che si adatta troppo bene ai dati di addestramento, perdendo capacità di generalizzazione. \nC)  Un modello che non ha sufficienti parametri per apprendere dai dati.",
         risposta_corretta = "B",
         punti_corretto = 15,
-        punti_errato = 10
+        punti_errato = -10
     )
 
         self.domande.aggiungidomanda(
@@ -45,7 +45,7 @@ class SfidaMachineLearning:
         opzioni = "A) Rimuovere i dati non necessari dal dataset. \nB) Garantire che tutte le variabili abbiano lo stesso intervallo per migliorare le prestazioni del modello. \nC) Aumentare la dimensione del dataset.",
         risposta_corretta = "B",
         punti_corretto = 15,
-        punti_errato = 10
+        punti_errato = -10
     )
     
     def sfida_machine_learning(self):
