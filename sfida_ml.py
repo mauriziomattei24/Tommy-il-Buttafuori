@@ -24,7 +24,7 @@ class SfidaMachineLearning:
         punti_errato = -10
     )
 
-        self.domande.aggiungidomanda(
+        self.domande.aggiungi_domanda(
         domanda="Quale tra i seguenti algoritmi è un esempio di apprendimento non supervisionato?",
         opzioni = "A) Regressione Lineare \nB) K-Means Clustering \nC) Decision Tree",
         risposta_corretta = "B",
@@ -32,7 +32,7 @@ class SfidaMachineLearning:
         punti_errato = -10
     )
 
-        self.domande.aggiungidomanda(
+        self.domande.aggiungi_domanda(
         domanda="Cosa rappresenta il termine 'overfitting' in un modello di machine learning?",
         opzioni = "A) Un modello che generalizza bene sui dati non visti. \nB) Un modello che si adatta troppo bene ai dati di addestramento, perdendo capacità di generalizzazione. \nC)  Un modello che non ha sufficienti parametri per apprendere dai dati.",
         risposta_corretta = "B",
@@ -40,7 +40,7 @@ class SfidaMachineLearning:
         punti_errato = -10
     )
 
-        self.domande.aggiungidomanda(
+        self.domande.aggiungi_domanda(
         domanda= "Qual è l'importanza della 'normalizzazione' nei dati di input?",
         opzioni = "A) Rimuovere i dati non necessari dal dataset. \nB) Garantire che tutte le variabili abbiano lo stesso intervallo per migliorare le prestazioni del modello. \nC) Aumentare la dimensione del dataset.",
         risposta_corretta = "B",
