@@ -1,3 +1,5 @@
+from classe_domande import DomandeDataScience
+
 class SfidaProgrammazione:
     def __init__(self):
         # Inizializziamo una istanza della classe DomandeDataScience
@@ -37,7 +39,7 @@ class SfidaProgrammazione:
     def sfida_programmazione(self):
        
         self.aggiungi_domande()
-        
+        self.punteggio = 0
         for i in range(5):
             self.punteggio += self.domande.fai_domanda(i)
         

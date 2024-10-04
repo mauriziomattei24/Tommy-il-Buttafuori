@@ -50,6 +50,8 @@ class SfidaMachineLearning:
     
     def sfida_machine_learning(self):
         # Fa tre domande e calcola il punteggio
+        self.aggiungi_domande()
+        self.punteggio = 0
         for i in range(5):
             self.punteggio += self.domande.fai_domanda(i)
         return self.punteggio
