@@ -60,7 +60,7 @@ def main():
         scontro.scontro_finale(punteggio)
     else:
         print(f"Il tuo punteggio finale è: {punteggio}.")
-        print("Sei stato buttato fuori dall'aula da Tommaso.")
+        print("Sei stato buttato fuori dall'aula da Tommaso")
     
 if __name__ == "__main__":
     main()
