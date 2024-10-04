@@ -1,3 +1,5 @@
+from classe_domande import DomandeDataScience
+
 class SfidaDeepLearning:
     def __init__(self):
         self.domande = DomandeDataScience()
