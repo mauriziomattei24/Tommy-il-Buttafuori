@@ -37,7 +37,7 @@ class SfidaDeepLearning:
                                       "A", 15, -10)
     
     def sfida_deep_learning(self):
-        self.aggiungi_domande = aggiungi_domande()
+        self.aggiungi_domande()
         for i in range(5):
             self.punteggio += self.domande.fai_domanda(i)
         return self.punteggio
